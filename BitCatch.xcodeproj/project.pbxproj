@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006FFEB01E3402800062291F /* Fire_Emoji_grande.png in Resources */ = {isa = PBXBuildFile; fileRef = 006FFEAE1E3402800062291F /* Fire_Emoji_grande.png */; };
+		006FFEB11E3402800062291F /* Emoji_Snowflake_Download.png in Resources */ = {isa = PBXBuildFile; fileRef = 006FFEAF1E3402800062291F /* Emoji_Snowflake_Download.png */; };
+		006FFEB41E344D810062291F /* sign.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 006FFEB21E344D810062291F /* sign.PNG */; };
+		006FFEB51E344D810062291F /* login.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 006FFEB31E344D810062291F /* login.PNG */; };
+		006FFEB81E344F8A0062291F /* CoinbaseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006FFEB71E344F8A0062291F /* CoinbaseLoginViewController.m */; };
+		006FFEBA1E3466CA0062291F /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 006FFEB91E3466CA0062291F /* Rectangle.png */; };
+		006FFEBC1E34679F0062291F /* Rectangle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 006FFEBB1E34679F0062291F /* Rectangle 2.png */; };
+		006FFEBE1E3469160062291F /* Rectangle 2 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 006FFEBD1E3469160062291F /* Rectangle 2 (1).png */; };
+		006FFEC01E346F5F0062291F /* coinbase-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 006FFEBF1E346F5F0062291F /* coinbase-white.png */; };
+		006FFEC31E3493F60062291F /* FirstClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006FFEC21E3493F60062291F /* FirstClassViewController.m */; };
+		0096920F1AE31FAC002BF606 /* MPCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0096920E1AE31FAC002BF606 /* MPCHandler.m */; };
+		009692111AE31FC4002BF606 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009692101AE31FC4002BF606 /* MultipeerConnectivity.framework */; };
+		009692141AE5A4DA002BF606 /* HostSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009692131AE5A4DA002BF606 /* HostSetupViewController.m */; };
+		009692171AE5E6C1002BF606 /* PlayerSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009692161AE5E6C1002BF606 /* PlayerSetupViewController.m */; };
+		0096921A1AE68C65002BF606 /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009692191AE68C65002BF606 /* CountdownViewController.m */; };
+		00983DB41AE1BCA7005E340E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00983DB31AE1BCA7005E340E /* main.m */; };
+		00983DB71AE1BCA7005E340E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00983DB61AE1BCA7005E340E /* AppDelegate.m */; };
+		00983DBA1AE1BCA7005E340E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00983DB91AE1BCA7005E340E /* ViewController.m */; };
+		00983DBD1AE1BCA7005E340E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00983DBB1AE1BCA7005E340E /* Main.storyboard */; };
+		00983DBF1AE1BCA7005E340E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00983DBE1AE1BCA7005E340E /* Images.xcassets */; };
+		00983DCE1AE1BCA7005E340E /* Hot_and_ColdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00983DCD1AE1BCA7005E340E /* Hot_and_ColdTests.m */; };
+		00983DD81AE1C0B5005E340E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00983DD71AE1C0B5005E340E /* MapKit.framework */; };
+		00983DDA1AE1C193005E340E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00983DD91AE1C193005E340E /* CoreLocation.framework */; };
+		00983DDC1AE1C198005E340E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00983DDB1AE1C198005E340E /* CoreBluetooth.framework */; };
+		00E80BF41AE84D5F00C61490 /* MainPlayerGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E80BF31AE84D5F00C61490 /* MainPlayerGameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00983DC81AE1BCA7005E340E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00983DA61AE1BCA7005E340E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00983DAD1AE1BCA7005E340E;
+			remoteInfo = "Hot and Cold";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006FFEAE1E3402800062291F /* Fire_Emoji_grande.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fire_Emoji_grande.png; path = ../../../Downloads/Fire_Emoji_grande.png; sourceTree = "<group>"; };
+		006FFEAF1E3402800062291F /* Emoji_Snowflake_Download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Emoji_Snowflake_Download.png; path = ../../../Downloads/Emoji_Snowflake_Download.png; sourceTree = "<group>"; };
+		006FFEB21E344D810062291F /* sign.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sign.PNG; path = ../../../Downloads/sign.PNG; sourceTree = "<group>"; };
+		006FFEB31E344D810062291F /* login.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.PNG; path = ../../../Downloads/login.PNG; sourceTree = "<group>"; };
+		006FFEB61E344F8A0062291F /* CoinbaseLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinbaseLoginViewController.h; sourceTree = "<group>"; };
+		006FFEB71E344F8A0062291F /* CoinbaseLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinbaseLoginViewController.m; sourceTree = "<group>"; };
+		006FFEB91E3466CA0062291F /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rectangle.png; path = ../../../Downloads/Rectangle.png; sourceTree = "<group>"; };
+		006FFEBB1E34679F0062291F /* Rectangle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 2.png"; path = "../../../Downloads/Rectangle 2.png"; sourceTree = "<group>"; };
+		006FFEBD1E3469160062291F /* Rectangle 2 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 2 (1).png"; path = "../../../Downloads/Rectangle 2 (1).png"; sourceTree = "<group>"; };
+		006FFEBF1E346F5F0062291F /* coinbase-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "coinbase-white.png"; path = "../../../Downloads/coinbase-white.png"; sourceTree = "<group>"; };
+		006FFEC11E3493F60062291F /* FirstClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstClassViewController.h; sourceTree = "<group>"; };
+		006FFEC21E3493F60062291F /* FirstClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstClassViewController.m; sourceTree = "<group>"; };
+		0096920D1AE31FAC002BF606 /* MPCHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCHandler.h; sourceTree = "<group>"; };
+		0096920E1AE31FAC002BF606 /* MPCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCHandler.m; sourceTree = "<group>"; };
+		009692101AE31FC4002BF606 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		009692121AE5A4DA002BF606 /* HostSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostSetupViewController.h; sourceTree = "<group>"; };
+		009692131AE5A4DA002BF606 /* HostSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostSetupViewController.m; sourceTree = "<group>"; };
+		009692151AE5E6C1002BF606 /* PlayerSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerSetupViewController.h; sourceTree = "<group>"; };
+		009692161AE5E6C1002BF606 /* PlayerSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerSetupViewController.m; sourceTree = "<group>"; };
+		009692181AE68C65002BF606 /* CountdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownViewController.h; sourceTree = "<group>"; };
+		009692191AE68C65002BF606 /* CountdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownViewController.m; sourceTree = "<group>"; };
+		00983DAE1AE1BCA7005E340E /* BitCatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00983DB21AE1BCA7005E340E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00983DB31AE1BCA7005E340E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00983DB51AE1BCA7005E340E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00983DB61AE1BCA7005E340E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00983DB81AE1BCA7005E340E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00983DB91AE1BCA7005E340E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00983DBC1AE1BCA7005E340E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00983DBE1AE1BCA7005E340E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00983DC71AE1BCA7005E340E /* BitCatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitCatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00983DCC1AE1BCA7005E340E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00983DCD1AE1BCA7005E340E /* Hot_and_ColdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hot_and_ColdTests.m; sourceTree = "<group>"; };
+		00983DD71AE1C0B5005E340E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		00983DD91AE1C193005E340E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		00983DDB1AE1C198005E340E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		00E80BF21AE84D5F00C61490 /* MainPlayerGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPlayerGameViewController.h; sourceTree = "<group>"; };
+		00E80BF31AE84D5F00C61490 /* MainPlayerGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPlayerGameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00983DAB1AE1BCA7005E340E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009692111AE31FC4002BF606 /* MultipeerConnectivity.framework in Frameworks */,
+				00983DDC1AE1C198005E340E /* CoreBluetooth.framework in Frameworks */,
+				00983DDA1AE1C193005E340E /* CoreLocation.framework in Frameworks */,
+				00983DD81AE1C0B5005E340E /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00983DC41AE1BCA7005E340E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00983DA51AE1BCA7005E340E = {
+			isa = PBXGroup;
+			children = (
+				009692101AE31FC4002BF606 /* MultipeerConnectivity.framework */,
+				00983DDB1AE1C198005E340E /* CoreBluetooth.framework */,
+				00983DD91AE1C193005E340E /* CoreLocation.framework */,
+				00983DD71AE1C0B5005E340E /* MapKit.framework */,
+				00983DB01AE1BCA7005E340E /* Hot and Cold */,
+				00983DCA1AE1BCA7005E340E /* Hot and ColdTests */,
+				00983DAF1AE1BCA7005E340E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00983DAF1AE1BCA7005E340E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00983DAE1AE1BCA7005E340E /* BitCatch.app */,
+				00983DC71AE1BCA7005E340E /* BitCatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00983DB01AE1BCA7005E340E /* Hot and Cold */ = {
+			isa = PBXGroup;
+			children = (
+				006FFEC11E3493F60062291F /* FirstClassViewController.h */,
+				006FFEC21E3493F60062291F /* FirstClassViewController.m */,
+				006FFEB61E344F8A0062291F /* CoinbaseLoginViewController.h */,
+				006FFEB71E344F8A0062291F /* CoinbaseLoginViewController.m */,
+				006FFEB21E344D810062291F /* sign.PNG */,
+				006FFEB31E344D810062291F /* login.PNG */,
+				006FFEAE1E3402800062291F /* Fire_Emoji_grande.png */,
+				006FFEBD1E3469160062291F /* Rectangle 2 (1).png */,
+				006FFEBB1E34679F0062291F /* Rectangle 2.png */,
+				006FFEBF1E346F5F0062291F /* coinbase-white.png */,
+				006FFEB91E3466CA0062291F /* Rectangle.png */,
+				006FFEAF1E3402800062291F /* Emoji_Snowflake_Download.png */,
+				00983DB51AE1BCA7005E340E /* AppDelegate.h */,
+				00983DB61AE1BCA7005E340E /* AppDelegate.m */,
+				00983DB81AE1BCA7005E340E /* ViewController.h */,
+				00983DB91AE1BCA7005E340E /* ViewController.m */,
+				0096920D1AE31FAC002BF606 /* MPCHandler.h */,
+				0096920E1AE31FAC002BF606 /* MPCHandler.m */,
+				009692121AE5A4DA002BF606 /* HostSetupViewController.h */,
+				009692131AE5A4DA002BF606 /* HostSetupViewController.m */,
+				00983DBB1AE1BCA7005E340E /* Main.storyboard */,
+				00E80BF21AE84D5F00C61490 /* MainPlayerGameViewController.h */,
+				00E80BF31AE84D5F00C61490 /* MainPlayerGameViewController.m */,
+				009692181AE68C65002BF606 /* CountdownViewController.h */,
+				009692191AE68C65002BF606 /* CountdownViewController.m */,
+				009692151AE5E6C1002BF606 /* PlayerSetupViewController.h */,
+				009692161AE5E6C1002BF606 /* PlayerSetupViewController.m */,
+				00983DBE1AE1BCA7005E340E /* Images.xcassets */,
+				00983DB11AE1BCA7005E340E /* Supporting Files */,
+			);
+			path = "Hot and Cold";
+			sourceTree = "<group>";
+		};
+		00983DB11AE1BCA7005E340E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00983DB21AE1BCA7005E340E /* Info.plist */,
+				00983DB31AE1BCA7005E340E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00983DCA1AE1BCA7005E340E /* Hot and ColdTests */ = {
+			isa = PBXGroup;
+			children = (
+				00983DCD1AE1BCA7005E340E /* Hot_and_ColdTests.m */,
+				00983DCB1AE1BCA7005E340E /* Supporting Files */,
+			);
+			path = "Hot and ColdTests";
+			sourceTree = "<group>";
+		};
+		00983DCB1AE1BCA7005E340E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00983DCC1AE1BCA7005E340E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00983DAD1AE1BCA7005E340E /* BitCatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00983DD11AE1BCA7005E340E /* Build configuration list for PBXNativeTarget "BitCatch" */;
+			buildPhases = (
+				00983DAA1AE1BCA7005E340E /* Sources */,
+				00983DAB1AE1BCA7005E340E /* Frameworks */,
+				00983DAC1AE1BCA7005E340E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitCatch;
+			productName = "Hot and Cold";
+			productReference = 00983DAE1AE1BCA7005E340E /* BitCatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00983DC61AE1BCA7005E340E /* BitCatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00983DD41AE1BCA7005E340E /* Build configuration list for PBXNativeTarget "BitCatchTests" */;
+			buildPhases = (
+				00983DC31AE1BCA7005E340E /* Sources */,
+				00983DC41AE1BCA7005E340E /* Frameworks */,
+				00983DC51AE1BCA7005E340E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00983DC91AE1BCA7005E340E /* PBXTargetDependency */,
+			);
+			name = BitCatchTests;
+			productName = "Hot and ColdTests";
+			productReference = 00983DC71AE1BCA7005E340E /* BitCatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00983DA61AE1BCA7005E340E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Ezra Kirsh";
+				TargetAttributes = {
+					00983DAD1AE1BCA7005E340E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = B7A79B695Q;
+						LastSwiftMigration = 0820;
+					};
+					00983DC61AE1BCA7005E340E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 00983DAD1AE1BCA7005E340E;
+					};
+				};
+			};
+			buildConfigurationList = 00983DA91AE1BCA7005E340E /* Build configuration list for PBXProject "BitCatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00983DA51AE1BCA7005E340E;
+			productRefGroup = 00983DAF1AE1BCA7005E340E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00983DAD1AE1BCA7005E340E /* BitCatch */,
+				00983DC61AE1BCA7005E340E /* BitCatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00983DAC1AE1BCA7005E340E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006FFEB01E3402800062291F /* Fire_Emoji_grande.png in Resources */,
+				006FFEBC1E34679F0062291F /* Rectangle 2.png in Resources */,
+				006FFEB51E344D810062291F /* login.PNG in Resources */,
+				00983DBD1AE1BCA7005E340E /* Main.storyboard in Resources */,
+				00983DBF1AE1BCA7005E340E /* Images.xcassets in Resources */,
+				006FFEC01E346F5F0062291F /* coinbase-white.png in Resources */,
+				006FFEB41E344D810062291F /* sign.PNG in Resources */,
+				006FFEBE1E3469160062291F /* Rectangle 2 (1).png in Resources */,
+				006FFEB11E3402800062291F /* Emoji_Snowflake_Download.png in Resources */,
+				006FFEBA1E3466CA0062291F /* Rectangle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00983DC51AE1BCA7005E340E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00983DAA1AE1BCA7005E340E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00983DBA1AE1BCA7005E340E /* ViewController.m in Sources */,
+				0096920F1AE31FAC002BF606 /* MPCHandler.m in Sources */,
+				00983DB71AE1BCA7005E340E /* AppDelegate.m in Sources */,
+				009692171AE5E6C1002BF606 /* PlayerSetupViewController.m in Sources */,
+				00E80BF41AE84D5F00C61490 /* MainPlayerGameViewController.m in Sources */,
+				00983DB41AE1BCA7005E340E /* main.m in Sources */,
+				006FFEC31E3493F60062291F /* FirstClassViewController.m in Sources */,
+				0096921A1AE68C65002BF606 /* CountdownViewController.m in Sources */,
+				009692141AE5A4DA002BF606 /* HostSetupViewController.m in Sources */,
+				006FFEB81E344F8A0062291F /* CoinbaseLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00983DC31AE1BCA7005E340E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00983DCE1AE1BCA7005E340E /* Hot_and_ColdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00983DC91AE1BCA7005E340E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00983DAD1AE1BCA7005E340E /* BitCatch */;
+			targetProxy = 00983DC81AE1BCA7005E340E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00983DBB1AE1BCA7005E340E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00983DBC1AE1BCA7005E340E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00983DCF1AE1BCA7005E340E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00983DD01AE1BCA7005E340E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00983DD21AE1BCA7005E340E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Hot and Cold/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ezra-Kirsh.BitCatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		00983DD31AE1BCA7005E340E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Hot and Cold/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ezra-Kirsh.BitCatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		00983DD51AE1BCA7005E340E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hot and ColdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitCatch.app/BitCatch";
+			};
+			name = Debug;
+		};
+		00983DD61AE1BCA7005E340E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hot and ColdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitCatch.app/BitCatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00983DA91AE1BCA7005E340E /* Build configuration list for PBXProject "BitCatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00983DCF1AE1BCA7005E340E /* Debug */,
+				00983DD01AE1BCA7005E340E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00983DD11AE1BCA7005E340E /* Build configuration list for PBXNativeTarget "BitCatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00983DD21AE1BCA7005E340E /* Debug */,
+				00983DD31AE1BCA7005E340E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00983DD41AE1BCA7005E340E /* Build configuration list for PBXNativeTarget "BitCatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00983DD51AE1BCA7005E340E /* Debug */,
+				00983DD61AE1BCA7005E340E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00983DA61AE1BCA7005E340E /* Project object */;
+}

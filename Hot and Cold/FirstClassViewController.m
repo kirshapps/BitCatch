@@ -1,0 +1,39 @@
+//
+//  FirstClassViewController.m
+//  Hot and Cold
+//
+//  Created by Ezra Kirsh on 2017-01-22.
+//  Copyright © 2017 Ezra Kirsh. All rights reserved.
+//
+
+#import "FirstClassViewController.h"
+
+@interface FirstClassViewController ()
+
+@end
+
+@implementation FirstClassViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    _button1.layer.cornerRadius = 20;
+    _button2.layer.cornerRadius = 20;
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
